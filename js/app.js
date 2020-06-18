@@ -7,7 +7,6 @@ const myQuestions = [
     compareAnswer: [],
     img: "/imgs/sg553.jpg",
     curLevel: ["1 / 30"]
- 
   },
   {
     question: "What is this map called?",
@@ -271,8 +270,6 @@ const myQuestions = [
     curLevel: ["30 / 30"]
   },
 ]
-
-
 const play = document.querySelector(".play")
 const menu = document.querySelector(".menu")
 const game = document.querySelector(".game")
@@ -319,6 +316,12 @@ let currentLevel = i
 let score = 0;
 
 
+function preloadImage(url) {
+  let img=new Image();
+  img.src=url
+}
+
+
 // When clicking play, remove menu & add game
 play.addEventListener("click", function() {
   nextLevel()
@@ -327,6 +330,8 @@ play.addEventListener("click", function() {
   toggleFocus()
   clicker()
   CurLevel()
+  url = myQuestions[i+1].img // Pre-Load Next Image
+  preloadImage(url) // Pre-Load Next Image
   menu.classList.toggle("hide")
   fixedContainer.classList.toggle("hide")
   next.classList.add("disabled")
@@ -359,6 +364,8 @@ next.addEventListener("click", function() {
   toggleHide();
   addFocusNext();
   CurLevel()
+  url = myQuestions[i+1].img // Pre-Load Next Image
+  preloadImage(url) // Pre-Load Next Image
   setImage.src = myQuestions[i].img;
   setQuestion.innerText = myQuestions[i].question;
   currentLevel = i
@@ -629,12 +636,12 @@ function displayIQ() {
   if(score === 1) {
     finalScore.innerText = "42"
     iqImage.src = "/imgs/gifs/tense1983.gif"
-    resultDescription.innerText = "There's a higher chance getting a knife in your first case than scoring this bad on a quiz. If you're currently playing cs:go it's suggested you uninstall it from your computer ASAP before you ruin more players lives in matchmaking."
+    resultDescription.innerText = "There's a higher chance getting a knife in your first case than scoring this bad on a test. If you're currently playing cs:go it's suggested you uninstall it from your computer ASAP before you ruin more players lives in matchmaking."
   }
   if(score === 2) {
     finalScore.innerText = "46"
     iqImage.src = "/imgs/gifs/tense1983.gif"
-    resultDescription.innerText = "There's a higher chance getting a knife in your first case than scoring this bad on a quiz. If you're currently playing cs:go it's suggested you uninstall it from your computer ASAP before you ruin more players lives in matchmaking."
+    resultDescription.innerText = "There's a higher chance getting a knife in your first case than scoring this bad on a test. If you're currently playing cs:go it's suggested you uninstall it from your computer ASAP before you ruin more players lives in matchmaking."
   }
   if(score === 3) {
     finalScore.innerText = "50"
@@ -644,32 +651,32 @@ function displayIQ() {
   if(score === 4) {
     finalScore.innerText = "54"
     iqImage.src = "/imgs/gifs/tense1983.gif"
-    resultDescription.innerText = "You're in the top 0.01% of worst players of all time playing this quiz, even a Dota 2 player can score better than you. If you're currently playing cs:go it's suggested you uninstall it from your computer ASAP before you ruin more players lives in matchmaking."
+    resultDescription.innerText = "You're in the top 0.01% of worst players of all time playing this test, even a Dota 2 player can score better than you. If you're currently playing cs:go it's suggested you uninstall it from your computer ASAP before you ruin more players lives in matchmaking."
   }
   if(score === 5) {
     finalScore.innerText = "58"
     iqImage.src = "/imgs/gifs/tense1983.gif"
-    resultDescription.innerText = "You're in the top 0.01% of worst players of all time playing this quiz, even a Dota 2 player can score better than you. If you're currently playing cs:go it's suggested you uninstall it from your computer ASAP before you ruin more players lives in matchmaking."
+    resultDescription.innerText = "You're in the top 0.01% of worst players of all time playing this test, even a Dota 2 player can score better than you. If you're currently playing cs:go it's suggested you uninstall it from your computer ASAP before you ruin more players lives in matchmaking."
   }
   if(score === 6) {
     finalScore.innerText = "62"
     iqImage.src = "/imgs/gifs/tense1983.gif"
-    resultDescription.innerText = "You're in the top 0.01% of worst players of all time playing this quiz, even a Dota 2 player can score better than you. If you're currently playing cs:go it's suggested you uninstall it from your computer ASAP before you ruin more players lives in matchmaking."
+    resultDescription.innerText = "You're in the top 0.01% of worst players of all time playing this test, even a Dota 2 player can score better than you. If you're currently playing cs:go it's suggested you uninstall it from your computer ASAP before you ruin more players lives in matchmaking."
   }
   if(score === 7) {
     finalScore.innerText = "66"
     iqImage.src = "/imgs/gifs/tense1983.gif"
-    resultDescription.innerText = "You're in the top 1% of worst players of all time playing this quiz, even a Dota 2 player can score better than you. If you're currently playing cs:go it's suggested you uninstall it from your computer ASAP before you ruin more players lives in matchmaking."
+    resultDescription.innerText = "You're in the top 1% of worst players of all time playing this test, even a Dota 2 player can score better than you. If you're currently playing cs:go it's suggested you uninstall it from your computer ASAP before you ruin more players lives in matchmaking."
   }
   if(score === 8) {
     finalScore.innerText = "70"
     iqImage.src = "/imgs/gifs/tense1983.gif"
-    resultDescription.innerText = "You're in the top 1% of worst players of all time playing this quiz, even a Dota 2 player can score better than you. If you're currently playing cs:go it's suggested you uninstall it from your computer ASAP before you ruin more players lives in matchmaking."
+    resultDescription.innerText = "You're in the top 1% of worst players of all time playing this test, even a Dota 2 player can score better than you. If you're currently playing cs:go it's suggested you uninstall it from your computer ASAP before you ruin more players lives in matchmaking."
   }
   if(score === 9) {
     finalScore.innerText = "74"
     iqImage.src = "/imgs/gifs/tense1983.gif"
-    resultDescription.innerText = "You're in the top 1% of worst players of all time playing this quiz, even a Dota 2 player can score better than you. If you're currently playing cs:go it's suggested you uninstall it from your computer ASAP before you ruin more players lives in matchmaking."
+    resultDescription.innerText = "You're in the top 1% of worst players of all time playing this test, even a Dota 2 player can score better than you. If you're currently playing cs:go it's suggested you uninstall it from your computer ASAP before you ruin more players lives in matchmaking."
   }
   if(score === 10) {
     finalScore.innerText = "78"
@@ -759,17 +766,17 @@ function displayIQ() {
   if(score === 27) {
     finalScore.innerText = "179"
     iqImage.src = "/imgs/gifs/s1mpleez.gif"
-    resultDescription.innerHTML = `You are one of few people who actually scores this high on the quiz, congratulations!. Since you're soo close to the 200IQ mark you will be invited to the <a class="href" target="_blank" href="https://steamcommunity.com/groups/200peek">200 IQ PEEK</a> steam group`
+    resultDescription.innerHTML = `You are one of few people who actually scores this high on the test, congratulations!. Since you're soo close to the 200IQ mark you will be invited to the <a class="href" target="_blank" href="https://steamcommunity.com/groups/200peek">200 IQ PEEK</a> steam group`
   }
   if(score === 28) {
     finalScore.innerText = "186"
     iqImage.src = "/imgs/gifs/s1mpleez.gif"
-    resultDescription.innerHTML = `You are one of few people who actually scores this high on the quiz, congratulations!. Since you're soo close to the 200IQ mark you will be invited to the <a class="href" target="_blank" href="https://steamcommunity.com/groups/200peek">200 IQ PEEK</a> steam group`
+    resultDescription.innerHTML = `You are one of few people who actually scores this high on the test, congratulations!. Since you're soo close to the 200IQ mark you will be invited to the <a class="href" target="_blank" href="https://steamcommunity.com/groups/200peek">200 IQ PEEK</a> steam group`
   }
   if(score === 29) {
     finalScore.innerText = "193"
     iqImage.src = "/imgs/gifs/s1mpleez.gif"
-    resultDescription.innerHTML = `You are one of few people who actually scores this high on the quiz, congratulations!. Since you're soo close to the 200IQ mark you will be invited to the <a class="href" target="_blank" href="https://steamcommunity.com/groups/200peek">200 IQ PEEK</a> steam group`
+    resultDescription.innerHTML = `You are one of few people who actually scores this high on the test, congratulations!. Since you're soo close to the 200IQ mark you will be invited to the <a class="href" target="_blank" href="https://steamcommunity.com/groups/200peek">200 IQ PEEK</a> steam group`
   }
   if(score === 30) {
     finalScore.innerText = "200"
