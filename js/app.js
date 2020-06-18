@@ -713,12 +713,12 @@ function displayIQ() {
   if(score === 16) {
     finalScore.innerText = "102"
     iqImage.src = "/imgs/gifs/olofmesiter.gif"
-    resultDescription.innerHTML = `You are pretty average, and average is bad, you're the type of player who always asks for awp, and when you finally get it, you're the firest guy in the team to die. you always bait your teammates to get a good K/D ratio. For your effort you will be invited to the <a class="href" href="https://steamcommunity.com/groups/200peek">200 IQ PEEK</a> steam group`
+    resultDescription.innerHTML = `You are pretty average, and average is bad, you're the type of player who always asks for awp, and when you finally get it, you're the first guy in the team to die. you always bait your teammates to get a good K/D ratio. For your effort you will be invited to the <a class="href" href="https://steamcommunity.com/groups/200peek">200 IQ PEEK</a> steam group`
   }
   if(score === 17) {
     finalScore.innerText = "109"
     iqImage.src = "/imgs/gifs/olofmesiter.gif"
-    resultDescription.innerHTML = `You are pretty average, and average is bad, you're the type of player who always asks for awp, and when you finally get it, you're the firest guy in the team to die. you always bait your teammates to get a good K/D ratio. For your effort you will be invited to the <a class="href" href="https://steamcommunity.com/groups/200peek">200 IQ PEEK</a> steam group`
+    resultDescription.innerHTML = `You are pretty average, and average is bad, you're the type of player who always asks for awp, and when you finally get it, you're the first guy in the team to die. you always bait your teammates to get a good K/D ratio. For your effort you will be invited to the <a class="href" href="https://steamcommunity.com/groups/200peek">200 IQ PEEK</a> steam group`
   }
   if(score === 18) {
     finalScore.innerText = "116"
