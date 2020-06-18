@@ -718,7 +718,7 @@ function displayIQ() {
   if(score === 17) {
     finalScore.innerText = "109"
     iqImage.src = "/imgs/gifs/olofmesiter.gif"
-    resultDescription.innerHTML = `You are pretty average, and average is bad, you're the type of player who always asks for awp, and when you finally get it, you're the first guy in the team to die. you always bait your teammates to get a good K/D ratio. For your effort you will be invited to the <a class="href" href="https://steamcommunity.com/groups/200peek">200 IQ PEEK</a> steam group`
+    resultDescription.innerHTML = `You are slightly above average, you're the type of player who always asks for awp, and when you finally get it, you're the first guy in the team to die. you always bait your teammates to get a good K/D ratio. For your effort you will be invited to the <a class="href" href="https://steamcommunity.com/groups/200peek">200 IQ PEEK</a> steam group`
   }
   if(score === 18) {
     finalScore.innerText = "116"
@@ -738,52 +738,52 @@ function displayIQ() {
   if(score === 21) {
     finalScore.innerText = "137"
     iqImage.src = "/imgs/gifs/dosia.gif"
-    resultDescription.innerHTML = 'You are way above average and a very smart cs:go player, good job! For your effort you will be invited to the <a class="href" target="_blank" href="https://steamcommunity.com/groups/200peek">200 IQ PEEK</a> steam group'
+    resultDescription.innerHTML = `You are way above average and a very smart cs:go player, good job! You're the type of player that always blames your chokes on 64 tick servers. For your effort you will be invited to the <a class="href" target="_blank" href="https://steamcommunity.com/groups/200peek">200 IQ PEEK</a> steam group`
   }
   if(score === 22) {
     finalScore.innerText = "144"
     iqImage.src = "/imgs/gifs/dosia.gif"
-    resultDescription.innerHTML = 'You are way above average and a very smart cs:go player, good job! For your effort you will be invited to the <a class="href" target="_blank" href="https://steamcommunity.com/groups/200peek">200 IQ PEEK</a> steam group'
+    resultDescription.innerHTML = `You are way above average and a very smart cs:go player, good job! You're the type of player that always blames your chokes on 64 tick servers. For your effort you will be invited to the <a class="href" target="_blank" href="https://steamcommunity.com/groups/200peek">200 IQ PEEK</a> steam group`
   }
   if(score === 23) {
     finalScore.innerText = "151"
     iqImage.src = "/imgs/gifs/dosia.gif"
-    resultDescription.innerHTML = 'You are way above average and a very smart cs:go player, good job! For your effort you will be invited to the <a class="href" target="_blank" href="https://steamcommunity.com/groups/200peek">200 IQ PEEK</a> steam group'
+    resultDescription.innerHTML = `You are way above average and a very smart cs:go player, good job! You're the type of player that always blames your chokes on 64 tick servers. For your effort you will be invited to the <a class="href" target="_blank" href="https://steamcommunity.com/groups/200peek">200 IQ PEEK</a> steam group`
   }
   if(score === 24) {
     finalScore.innerText = "158"
     iqImage.src = "/imgs/gifs/snax.gif"
-    resultDescription.innerHTML = 'You are in the top 10%, congratulations! not many people scores this high. For your effort you will be invited to the <a class="href" target="_blank" href="https://steamcommunity.com/groups/200peek">200 IQ PEEK</a> steam group'
+    resultDescription.innerHTML = `You are in the top 10%, congratulations! not many people scores this high. You're the type of players who always blames your team for losing the game. For your effort you will be invited to the <a class="href" target="_blank" href="https://steamcommunity.com/groups/200peek">200 IQ PEEK</a> steam group`
   }
   if(score === 25) {
     finalScore.innerText = "165"
     iqImage.src = "/imgs/gifs/snax.gif"
-    resultDescription.innerHTML = 'You are in the top 10%, congratulations! not many people scores this high. For your effort you will be invited to the <a class="href" target="_blank" href="https://steamcommunity.com/groups/200peek">200 IQ PEEK</a> steam group'
+    resultDescription.innerHTML = `You are in the top 10%, congratulations! not many people scores this high. You're the type of players who always blames your team for losing the game. For your effort you will be invited to the <a class="href" target="_blank" href="https://steamcommunity.com/groups/200peek">200 IQ PEEK</a> steam group`
   }
   if(score === 26) {
     finalScore.innerText = "172"
     iqImage.src = "/imgs/gifs/snax.gif"
-    resultDescription.innerHTML = 'You are in the top 10%, congratulations! not many people scores this high. For your effort you will be invited to the <a class="href" target="_blank" href="https://steamcommunity.com/groups/200peek">200 IQ PEEK</a> steam group'
+    resultDescription.innerHTML = `You are in the top 10%, congratulations! not many people scores this high. You're the type of players who always blames your team for losing the game. For your effort you will be invited to the <a class="href" target="_blank" href="https://steamcommunity.com/groups/200peek">200 IQ PEEK</a> steam group`
   }
   if(score === 27) {
     finalScore.innerText = "179"
     iqImage.src = "/imgs/gifs/s1mpleez.gif"
-    resultDescription.innerHTML = `You are one of few people who actually scores this high on the test, congratulations!. Since you're soo close to the 200IQ mark you will be invited to the <a class="href" target="_blank" href="https://steamcommunity.com/groups/200peek">200 IQ PEEK</a> steam group`
+    resultDescription.innerHTML = `You are one of few people who actually scores this high on the test, congratulations!. You have more than 5000 hours in the game and you're still only supreme. Since you're soo close to the 200IQ mark you will be invited to the <a class="href" target="_blank" href="https://steamcommunity.com/groups/200peek">200 IQ PEEK</a> steam group`
   }
   if(score === 28) {
     finalScore.innerText = "186"
     iqImage.src = "/imgs/gifs/s1mpleez.gif"
-    resultDescription.innerHTML = `You are one of few people who actually scores this high on the test, congratulations!. Since you're soo close to the 200IQ mark you will be invited to the <a class="href" target="_blank" href="https://steamcommunity.com/groups/200peek">200 IQ PEEK</a> steam group`
+    resultDescription.innerHTML = `You are one of few people who actually scores this high on the test, congratulations!. You have more than 5000 hours in the game and you're still only supreme. Since you're soo close to the 200IQ mark you will be invited to the <a class="href" target="_blank" href="https://steamcommunity.com/groups/200peek">200 IQ PEEK</a> steam group`
   }
   if(score === 29) {
     finalScore.innerText = "193"
     iqImage.src = "/imgs/gifs/s1mpleez.gif"
-    resultDescription.innerHTML = `You are one of few people who actually scores this high on the test, congratulations!. Since you're soo close to the 200IQ mark you will be invited to the <a class="href" target="_blank" href="https://steamcommunity.com/groups/200peek">200 IQ PEEK</a> steam group`
+    resultDescription.innerHTML = `You are one of few people who actually scores this high on the test, congratulations!. You have more than 5000 hours in the game and you're still only supreme. Since you're soo close to the 200IQ mark you will be invited to the <a class="href" target="_blank" href="https://steamcommunity.com/groups/200peek">200 IQ PEEK</a> steam group`
   }
   if(score === 30) {
     finalScore.innerText = "200"
     iqImage.src = "/imgs/gifs/boombl4.gif"
-    resultDescription.innerHTML = 'You did it, you got 100% of your answers correct! You are in the top 0.01% of most intellegent cs:go players and can now proudly call yourself a REAL csgo 200iq player, as an honor for have gotten all answers right, you will be invited to the <a class="href" target="_blank" href="https://steamcommunity.com/groups/200peek">200 IQ PEEK</a> steam group'
+    resultDescription.innerHTML = `You did it, you got 100% of your answers correct! You probably cheated, but if you didn't You are in the top 0.01% of most intellegent cs:go players and can now proudly call yourself a REAL csgo 200iq player, as an honor for have gotten all answers right, you will be invited to the <a class="href" target="_blank" href="https://steamcommunity.com/groups/200peek">200 IQ PEEK</a> steam group`
   }
 }
 
