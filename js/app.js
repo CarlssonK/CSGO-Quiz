@@ -64,9 +64,9 @@ const myQuestions = [
   },
   {
     question: "How many pistols are there in CS:GO? (Excluding Zeus)",
-    options: ["5", "6", "7", "8"],
+    options: ["4", "6", "8", "10"],
     userAnswer: [],
-    answer: ["8"],
+    answer: ["10"],
     compareAnswer: [],
     img: "/imgs/GlockBlack.png",
     curLevel: ["8 / 30"]
@@ -783,7 +783,7 @@ function displayIQ() {
   if(score === 30) {
     finalScore.innerText = "200"
     iqImage.src = "/imgs/gifs/boombl4.gif"
-    resultDescription.innerHTML = `You did it, you got 100% of your answers correct! You probably cheated, but if you didn't You are in the top 0.01% of most intellegent cs:go players and can now proudly call yourself a REAL csgo 200iq player, as an honor for have gotten all answers right, you will be invited to the <a class="href" target="_blank" href="https://steamcommunity.com/groups/200peek">200 IQ PEEK</a> steam group`
+    resultDescription.innerHTML = `You did it, you got 100% of your answers correct! You probably cheated, but if you didn't You are in the top 0.01% of most intelligent cs:go players and can now proudly call yourself a REAL csgo 200iq player, as an honor for have gotten all answers right, you will be invited to the <a class="href" target="_blank" href="https://steamcommunity.com/groups/200peek">200 IQ PEEK</a> steam group`
   }
 }
 
