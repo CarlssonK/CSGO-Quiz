@@ -364,7 +364,9 @@ next.addEventListener("click", function() {
   toggleHide();
   addFocusNext();
   CurLevel()
-  url = myQuestions[i+1].img // Pre-Load Next Image
+  if(i+1 < myQuestions.length) { // Prevents Last question error
+    url = myQuestions[i+1].img // Pre-Load Next Image
+  }
   preloadImage(url) // Pre-Load Next Image
   setImage.src = myQuestions[i].img;
   setQuestion.innerText = myQuestions[i].question;
