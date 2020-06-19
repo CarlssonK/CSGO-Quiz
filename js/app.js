@@ -91,9 +91,9 @@ const myQuestions = [
   },
   {
     question: "Which of the following maps does NOT feature a Fork Lift?",
-    options: ["Vertigo", "Cache", "Train", "Nuke"],
+    options: ["Overpass", "Cache", "Train", "Nuke"],
     userAnswer: [],
-    answer: ["Vertigo"],
+    answer: ["Overpass"],
     compareAnswer: [],
     img: "/imgs/forkLiftBlack.png",
     curLevel: ["11 / 30"]
