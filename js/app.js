@@ -217,9 +217,9 @@ const myQuestions = [
   },
   {
     question: "Which of the following skins is featured on more than 1 weapon?",
-    options: ["Fever Dream", "Bullet Queen", "Neon Revolution", "Hellfire"],
+    options: ["Bloodsport", "Primal Saber", "Neon Revolution", "Hellfire"],
     userAnswer: [],
-    answer: ["Fever Dream"],
+    answer: ["Bloodsport"],
     compareAnswer: [],
     img: "/imgs/asiimovs.png",
     curLevel: ["25 / 30"]
