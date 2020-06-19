@@ -126,7 +126,7 @@ const myQuestions = [
     curLevel: ["14 / 30"]
   },
   {
-    question: "How long time is a full round in competetive matchmaking?",
+    question: "How long time is a full round in competetive matchmaking? (without bomb plant)",
     options: ["1 minute 55 seconds", "2 minutes 30 seconds", "2 minutes 55 seconds", "1 minute 30 seconds"],
     userAnswer: [],
     answer: ["1 minute 55 seconds"],
