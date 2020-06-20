@@ -226,9 +226,9 @@ const myQuestions = [
   },
   {
     question: 'What does the term "Aim Punch" mean?',
-    options: ["It's when you are shot in the head and your crosshair/aim flicks up for a split second", "When you're aiming at an enemy and you suddenly get punched from behind", "It's another word for falling damage, and means that your speed is slowed down from falling", "When your aim/crosshair moves while shooting with a gun"],
+    options: ["It's when you are shot in the torso or head and your crosshair/aim flicks up for a split second", "When you're aiming at an enemy and you suddenly get punched from behind", "It's another word for falling damage, and means that your speed is slowed down from falling", "When your aim/crosshair moves while shooting with a gun"],
     userAnswer: [],
-    answer: ["It's when you are shot in the head and your crosshair/aim flicks up for a split second"],
+    answer: ["It's when you are shot in the torso or head and your crosshair/aim flicks up for a split second"],
     compareAnswer: [],
     img: "/imgs/crosshair.png",
     curLevel: ["26 / 30"]
